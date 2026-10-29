@@ -49,8 +49,8 @@ LabEx는 임시 환경이므로 Dockerfile, index.html, 실습 스크린샷 및 
 - [x] VS Code 및 Git 설치
 - [x] 로컬 Git 저장소 초기화
 - [x] 기존 GitHub 저장소 연결 및 변경 이력 확인
-- [ ] 최종 README 및 실습 파일 커밋
-- [ ] GitHub push 및 업로드 확인
+- [x] 최종 README 및 실습 파일 커밋
+- [x] 최종 Git 커밋 및 GitHub 업로드
 - [ ] 코디세이 AI 재평가
 
 
@@ -1270,7 +1270,7 @@ Codyssey volume test
 - [x] Docker 포트 충돌 원인 분석 및 해결
 - [x] VS Code와 Git 설치 및 GitHub 저장소 연결
 - [x] README 작성 및 실습 증거 정리
-- [ ] 최종 Git 커밋 및 GitHub 업로드
+- [x] 최종 Git 커밋 및 GitHub 업로드
 - [ ] 코디세이 AI 재평가 결과 확인
 
 ### 14.2 문제 해결을 통해 배운 점
