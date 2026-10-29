@@ -1126,6 +1126,29 @@ Git 설치부터 로컬 저장소 초기화, GitHub 원격 저장소 등록, 기
 
 기존 GitHub 저장소의 커밋 기록을 보존하면서 새 과제 파일을 업로드할 준비를 진행했습니다.
 
+```
+
+README 체크리스트 수정 후 추가로 실행한 명령어:
+
+```powershell
+git push
+```
+
+실제 성공 출력:
+
+```text
+To https://github.com/haru1208/1029_cs.git
+   accb2af..725be94  main -> main
+```
+
+최종 업로드 커밋: `725be94`
+
+GitHub 커밋 확인:
+https://github.com/haru1208/1029_cs/commit/725be94
+
+`main -> main` 출력으로 로컬 커밋이 GitHub 원격 저장소에 정상적으로 업로드됐음을 확인했습니다.
+
+
 
 ## 13. 프로젝트 폴더 구조 및 재현 방법
 
