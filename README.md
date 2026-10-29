@@ -45,3 +45,7 @@ C:\mission_practice>dir
 2026-10-29  오후 01:42               223 index.html
 2026-10-29  오전 11:59                20 note.txt
 2026-10-29  오후 12:11               383 README.md
+
+### 2. 파일 관리 실습 (ren, mkdir, move)
+- `ren` 명령어로 파일 이름을 변경하고, `mkdir`로 폴더를 생성하여 `move`로 파일을 이동시켰습니다.
+- 변경 사항: `empty_file.txt` → `my_log.txt` 이름 변경 및 `archive/` 폴더로 이동 완료
