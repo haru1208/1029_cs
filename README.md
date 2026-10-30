@@ -1341,7 +1341,7 @@ code .
 위 과정을 통해 새 컴퓨터에서도 GitHub 저장소를 정상적으로 불러오고 VSCode와 연결할 수 있음을 확인했다.
 
 연동 확인 스크린샷:  
-`screenshots/01_vscode_github_sync_status.png`
+`screenshots/vscode_github_sync_status.png`
 
 **프로젝트 저장소:** https://github.com/haru1208/1029_cs
 
