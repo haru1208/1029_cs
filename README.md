@@ -1308,6 +1308,7 @@ Docker 이미지 다운로드 시간 초과와 포트 충돌 문제를 경험했
 4. 명령어 재실행
 5. 정상 동작 여부 검증
 
+
 ### 14.3 실습 소감
 
 이번 실습을 통해 명령어를 단순히 실행하는 것에서 나아가 파일 관리, Linux 권한, Docker 이미지 및 컨테이너, 데이터 저장 방식, Git 버전 관리의 기본 흐름을 익혔습니다.
@@ -1317,6 +1318,27 @@ Docker 이미지 다운로드 시간 초과와 포트 충돌 문제를 경험했
 앞으로도 실습 결과를 명령어, 출력 결과, 스크린샷과 함께 관리하여 다른 환경에서도 과정을 확인할 수 있도록 하겠습니다.
 
 ---
+## 추가 보완사항 
+
+### VSCode와 GitHub 연동 확인
+
+새 컴퓨터에서 GitHub 저장소를 clone한 뒤 VSCode로 폴더를 열었다.
+
+- 저장소 주소: https://github.com/haru1208/1029_cs.git
+- clone 위치: C:\Users\User\Desktop\cs-work\1029_cs
+- VSCode에서 저장소 폴더 열기 완료
+- VSCode Source Control 기능을 통해 Git 변경 사항 확인 가능
+- GitHub 계정 연동 상태에서 저장소 작업 가능
+
+### 확인한 명령어
+
+```powershell
+git clone https://github.com/haru1208/1029_cs.git
+cd 1029_cs
+code .
+```
+
+위 과정을 통해 새 컴퓨터에서도 GitHub 저장소를 정상적으로 불러오고 VSCode와 연결할 수 있음을 확인했다.
 
 **프로젝트 저장소:** https://github.com/haru1208/1029_cs
 
