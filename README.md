@@ -145,6 +145,11 @@ dir
 
 실습 결과는 `terminal_log.txt`와 `archive/my_log.txt`에 보관했습니다.
 
+> **인코딩 참고:** Windows CMD의 `echo ... > 파일`은 기본 코드 페이지(CP949)로 저장합니다.
+> GitHub는 파일을 UTF-8로 읽기 때문에 한글이 `����`처럼 깨져 보였습니다.
+> 그래서 두 로그 파일을 내용은 그대로 두고 UTF-8로 변환했습니다.
+> 처음부터 UTF-8로 저장하려면 CMD에서 `chcp 65001`을 먼저 실행합니다.
+
 
 ## 5. Linux 파일 및 디렉터리 권한 실습
 
@@ -1107,7 +1112,7 @@ git log -1 --oneline
 
 ### 12.9 최종 GitHub 업로드 절차
 
-최종 README와 실습 파일을 모두 확인한 뒤 다음 명령어로 업로드할 예정입니다.
+최종 README와 실습 파일을 모두 확인한 뒤 다음 명령어로 업로드했습니다.
 
 ```powershell
 git status
@@ -1116,17 +1121,14 @@ git commit -m "Complete development environment training mission"
 git push -u origin main
 ```
 
-**주의:** 위 명령어는 최종 제출을 위한 예정 절차입니다. 아직 `git commit`과 `git push`의 성공을 확인한 것은 아닙니다.
-
-실제로 업로드에 성공한 뒤 결과를 확인하고 완료 상태를 기록할 예정입니다.
+이 명령어로 `accb2af Complete development environment training mission` 커밋을 만들어 GitHub에 올렸습니다.
+이후 README 체크리스트를 고쳐 다시 업로드한 결과는 12.10에 기록했습니다.
 
 ### 12.10 실습 결과
 
 Git 설치부터 로컬 저장소 초기화, GitHub 원격 저장소 등록, 기존 변경 이력 가져오기, 브랜치 및 커밋 확인까지 완료했습니다.
 
 기존 GitHub 저장소의 커밋 기록을 보존하면서 새 과제 파일을 업로드할 준비를 진행했습니다.
-
-```
 
 README 체크리스트 수정 후 추가로 실행한 명령어:
 
@@ -1183,7 +1185,8 @@ codyssey-mission/
     ├── docker-bind-mount-success.png
     ├── docker-volume-backup-contents.png
     ├── docker-port-conflict.png
-    └── docker-port-conflict-solved.png
+    ├── docker-port-conflict-solved.png
+    └── vscode_github_sync_status.png
 ```
 
 각 폴더와 파일의 역할은 다음과 같습니다.
