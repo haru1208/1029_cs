@@ -1322,7 +1322,7 @@ Docker 이미지 다운로드 시간 초과와 포트 충돌 문제를 경험했
 
 ### VSCode와 GitHub 연동 확인
 
-새 컴퓨터에서 GitHub 저장소를 clone한 뒤 VSCode로 폴더를 열었다.
+새 컴퓨터에서 GitHub 저장소를 clone한 뒤 VSCode로 폴더를 열었습니다.
 
 - 저장소 주소: https://github.com/haru1208/1029_cs.git
 - clone 위치: C:\Users\User\Desktop\cs-work\1029_cs
@@ -1338,7 +1338,7 @@ cd 1029_cs
 code .
 ```
 
-위 과정을 통해 새 컴퓨터에서도 GitHub 저장소를 정상적으로 불러오고 VSCode와 연결할 수 있음을 확인했다.
+위 과정을 통해 새 컴퓨터에서도 GitHub 저장소를 정상적으로 불러오고 VSCode와 연결할 수 있음을 확인했습니다.
 
 연동 확인 스크린샷:
 
