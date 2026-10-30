@@ -1107,7 +1107,7 @@ git log -1 --oneline
 
 ### 12.9 최종 GitHub 업로드 절차
 
-최종 README와 실습 파일을 모두 확인한 뒤 다음 명령어로 업로드할 예정입니다.
+최종 README와 실습 파일을 모두 확인한 뒤 다음 명령어로 업로드했습니다.
 
 ```powershell
 git status
@@ -1116,9 +1116,8 @@ git commit -m "Complete development environment training mission"
 git push -u origin main
 ```
 
-**주의:** 위 명령어는 최종 제출을 위한 예정 절차입니다. 아직 `git commit`과 `git push`의 성공을 확인한 것은 아닙니다.
-
-실제로 업로드에 성공한 뒤 결과를 확인하고 완료 상태를 기록할 예정입니다.
+이 명령어로 `accb2af Complete development environment training mission` 커밋을 만들어 GitHub에 올렸습니다.
+이후 README 체크리스트를 고쳐 다시 업로드한 결과는 12.10에 기록했습니다.
 
 ### 12.10 실습 결과
 
