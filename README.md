@@ -145,6 +145,11 @@ dir
 
 실습 결과는 `terminal_log.txt`와 `archive/my_log.txt`에 보관했습니다.
 
+> **인코딩 참고:** Windows CMD의 `echo ... > 파일`은 기본 코드 페이지(CP949)로 저장합니다.
+> GitHub는 파일을 UTF-8로 읽기 때문에 한글이 `����`처럼 깨져 보였습니다.
+> 그래서 두 로그 파일을 내용은 그대로 두고 UTF-8로 변환했습니다.
+> 처음부터 UTF-8로 저장하려면 CMD에서 `chcp 65001`을 먼저 실행합니다.
+
 
 ## 5. Linux 파일 및 디렉터리 권한 실습
 
@@ -1180,7 +1185,8 @@ codyssey-mission/
     ├── docker-bind-mount-success.png
     ├── docker-volume-backup-contents.png
     ├── docker-port-conflict.png
-    └── docker-port-conflict-solved.png
+    ├── docker-port-conflict-solved.png
+    └── vscode_github_sync_status.png
 ```
 
 각 폴더와 파일의 역할은 다음과 같습니다.
