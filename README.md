@@ -1349,3 +1349,9 @@ code .
 
 **프로젝트 저장소:** https://github.com/haru1208/1029_cs
 
+---
+
+## 추가 미션 진행 (개인 복습)
+
+[Docker Desktop 재실습 및 보너스 과제](https://github.com/haru1208/Codyssey-E1-1-Docker)
+
